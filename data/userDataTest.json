@@ -1,0 +1,20 @@
+[
+    {"id":1,
+"first_name":"Neddie",
+"last_name":"Kock",
+"email":"nkock0@cdbaby.com",
+"password":"AYUT8Ffh8",
+"category":"admin", 
+"imagen": "imagenUsuario.png" },
+
+{"id":2,"first_name":"Leonard","last_name":"Andrini","email":"landrini1@com.com","password":"L0sihs","category":"usuario", "imagen": "imagenUsuario.png" },
+{"id":3,"first_name":"Morgan","last_name":"Crandon","email":"mcrandon2@spiegel.de","password":"lshAWB3","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":4,"first_name":"Jackie","last_name":"Rebanks","email":"jrebanks3@twitpic.com","password":"jESFG8CHq6c","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":5,"first_name":"George","last_name":"Hebron","email":"ghebron4@infoseek.co.jp","password":"xlhm5oY","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":6,"first_name":"Kalvin","last_name":"Hendrikse","email":"khendrikse5@accuweather.com","pasword":"SkesVGZ5Q1v","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":7,"first_name":"Spence","last_name":"Storton","email":"sstorton6@prlog.org","password":"bd7Hx4xN6Fyj","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":8,"first_name":"Tiebold","last_name":"Takkos","email":"ttakkos7@paypal.com","password":"ior8cf","category":"admin", "imagen": "imagenUsuario.png"},
+{"id":9,"first_name":"Sasha","last_name":"Duberry","email":"sduberry8@phoca.cz","password":"lFSkeH","category":"usuario", "imagen": "imagenUsuario.png"},
+{"id":10,"first_name":"Bernita","last_name":"Dearness","email":"bdearness9@squarespace.com","password":"oSG40yChb19","category":"admin", "imagen": "imagenUsuario.png"}
+
+]

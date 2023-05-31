@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%-  include('./partials/head.ejs', { css_files: ["carrito"] })%>
+
+<!--     <link rel="stylesheet" href="/css/carrito.css">
+ -->
+</head>
+
+<body>
+
+    <%- include('./partials/header.ejs') %>
+
+    <main class="contenedor-main">
+
+        <section class="checkout">
+            
+                <!--<header class="header-mobile">
+                    <div class="contenedor-logo">
+                        <img src="/image/logo-culmen-negro.png" alt="Logo Culmen" class="logo">
+                    </div>
+                </header>-->
+                
+                <div>
+                <div class="directory">
+                    <a href=>Carrito<i class="fa-solid fa-greater-than"></i></a>
+                    <p>Información<i class="fa-solid fa-greater-than"></i></p>
+                    <p>Pago</p>
+                </div>
+            </div>
+
+            <!--
+            <div class="product-details">
+                <p>Producto</p> 
+                <p>Precio</p> 
+                <p>Cantidad</p>
+            </div>
+            <div class="details"> 
+                <div>
+                    <img src="/image/producto-carrito.jpg" alt="" width="75" style="margin-top: 15px;">
+                    <p class="product-name">Mochila 22L</p>
+                </div>
+                <div class="price-details">
+                    <p>$34.499</p>
+                </div>
+                <div class="quantity-details">
+                    <button class="quantity-button">+</button>
+                    <p class="quantity-number"> 1 </p>
+                    <button class="quantity-button">-</button>
+                </div>
+            </div>
+            -->
+
+            <div class="product">
+                    <div>
+                    <img src="/image/producto-carrito.jpg" alt="" width="75">
+                    </div>
+                    <div class="product-details">
+                        <i class="fas fa-circle"></i>
+                        <p class="product-title">Mochila 22L</p>
+                        <p class="product-price">$34.499</p>
+                    </div>
+                </div>
+
+            <div class="add-title">
+                <p>También te puede interesar...</p>
+            </div>
+            <div class="add-product-1">
+                <div class="add-product-box">
+                    <img src="/image/producto-carrito.jpg" alt="" width="75" style="margin-top: 15px;">
+                    <div class="title-price">
+                    <p class="add-product-title">Producto</p>
+                    <div class="add-product-price">$10.899</div>
+                    </div>
+                </div>
+                <div class="add-button-box">
+                    <button class="add-button">Agregar</button>
+                </div>
+            </div>
+            <div class="add-product-2">
+                <div class="add-product-box">
+                    <img src="/image/producto-carrito.jpg" alt="" width="75" style="margin-top: 15px;">
+                    <div class="title-price">
+                    <p class="add-product-title">Producto</p>
+                    <div class="add-product-price">$5.949</div>
+                    </div>
+                </div>
+                <div class="add-button-box">
+                    <button class="add-button" type="submit">Agregar</button>
+                </div>
+            </div>
+
+                <form action="" method="POST" class="discount">
+                    <input class="descuento" type="text" placeholder="Gift card o código de descuento">
+                    <button class="apply" type="submit">Aplicar</button>
+                </form>
+            </div> 
+            <div>
+                <br>
+                <div class="subtotal-price">
+                    <p>Subtotal</p>
+                    <p style="margin-left: auto;">$34.499</p>
+                </div>
+                <div class="delivery-price">
+                    <p>Envío</p>
+                    <p class="free">Gratis</p>
+                </div>
+                <div class="total-price">
+                    <p>Total</p>
+                    <p class="total">$34.499</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-data">
+            <div>
+                <div class="directory-web">
+                    <a href=>Carrito<i class="fa-solid fa-greater-than"></i></a>
+                    <p>Información<i class="fa-solid fa-greater-than"></i></p>
+                    <p>Pago</p>
+                </div>
+            </div>
+
+            <div class="customer-data">
+                <p class="customer-data-title">Datos de contacto</p>
+                <p class="log-in">¿Tienes una cuenta? <a style="font-weight: bold;" href=>Entrar</a></p>
+            </div>
+            <div>
+                <form action="" method="POST" style="margin-top:15px">
+                    <input type="email" placeholder="Email">
+                    <div class="checkbox-1">
+                        <input class="choice-1" type="checkbox" name="subscribe" value="sub" id="sub">
+                        <label for="sub">Suscribirme a noticias y ofertas</label>
+                    </div>
+                    <br>
+                    <div class="shipping-address">
+                    <p>Dirección de envío</p>
+                    </div>
+                    <br>
+                    <select form="Pais/Region" id="Pais/Region" autofocus>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Deutschland">Deutschland</option>
+                        <option value="España">España</option>
+                        <option value="France">France</option>
+                        <option value="Italia">Italia</option>
+                        <option value="México">México</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="USA">USA</option>
+                    </select>
+                    <div class="divided-form">
+                        <input class="split-form" type="text" placeholder="Nombre">
+                        <input class="split-form" type="text" placeholder="Apellido">
+                    </div>
+                    <input type="text" placeholder="Dirección">
+                    <div class="divided-form">
+                        <input class="split-form" type="text" placeholder="Ciudad">
+                        <input class="split-form" type="text" placeholder="Código Postal">
+                    </div>
+                    <input type="text" placeholder="Provincia">
+                    <input type="tel" placeholder="Teléfono">          
+                </form>
+                <div class="checkbox-2">
+                    <input class="choice-2" type="checkbox" name="information" value="a" id="a">
+                    <label for="a">Guardar esta información para la próxima</label>
+                </div>
+            </div>
+            <div class="buy-back">
+                <a class="back" href=><i class="fa-solid fa-less-than"></i>Volver atrás</a>
+                <button type="submit" class="buy">Ir a pagar</button>
+            </div>
+        </section>
+    </main>
+    
+    <%-  include('./partials/footer.ejs')   %>
+
+</body>
+</html>

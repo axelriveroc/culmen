@@ -1,0 +1,29 @@
+[
+ {
+  "id": 1,
+  "name": "Axel",
+  "lastName": "Rivero coronel",
+  "email": "Riverocoronelaxel@gmail.com",
+  "password": "$2a$10$MU.xKFdohL/ZgUhOLkNYUekjx0/PGwc7P4YJOnUP63S/JOS7GFYH6",
+  "passConfirm": "Axel12345",
+  "imagen": "avatar-1676141040512.png"
+ },
+ {
+  "id": 2,
+  "name": "Axel",
+  "lastName": "Rivero coronel",
+  "email": "popito@hotmail.com",
+  "password": "$2a$10$Zurtgln5bdBJ2BfrATdYpORfdBVxdDWH2.5egkIQ8bgfLyF8Zu3Iq",
+  "passConfirm": "$2a$10$9pJ32zrUk2WDa1B1zD4r7.JEQGOyvq6e5oykp4PIXnfmZXnGU0zsm",
+  "imagen": "avatar-1676141236678.png"
+ },
+ {
+  "id": 3,
+  "name": "Victoria",
+  "lastName": "Boguetti",
+  "email": "vicky@boguetti.com",
+  "password": "$2a$10$dN2pDDTm/LKyW4KsbQj4h.dWY0hxgsGUdaXahTkVSuDBDYhNoiHDC",
+  "passConfirm": "$2a$10$7l2B/fHVm3HAm6BOmOyQ.ueyjkwd3qEy8t4YU1d6zfHh2rz72zAIy",
+  "imagen": "avatar-1676497822757.png"
+ }
+]

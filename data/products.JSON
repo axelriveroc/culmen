@@ -1,0 +1,473 @@
+[
+  {
+    "id": "1",
+    "nombre": "Camisa Azul",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "hombre",
+    "ropa": "on",
+    "precio": "5500",
+    "imagen": "img-1675034578151.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Camisa-1-H-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034578153.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034578153.jpg",
+        "size": 56695
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Camisa-1-H-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034578155.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034578155.jpg",
+        "size": 80734
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nombre": "Camisa Cuadrille",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "mujer",
+    "ropa": "on",
+    "precio": "4500",
+    "imagen": "img-1675034602715.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Camisa-2-F-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034602717.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034602717.jpg",
+        "size": 148230
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Camisa-2-F-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034602719.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034602719.jpg",
+        "size": 221517
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "nombre": "Campera Plums",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "hombre",
+    "ropa": "on",
+    "precio": "18200",
+    "imagen": "img-1675034633669.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Campera-Abrigo-lateral-H.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034633670.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034633670.jpg",
+        "size": 51341
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Campera-Abrigo-reverso-H.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034633671.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034633671.jpg",
+        "size": 71706
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Campera Water",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "mujer",
+    "ropa": "on",
+    "precio": "16800",
+    "imagen": "img-1675034647863.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Camepera-Abrigo-F-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034647864.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034647864.jpg",
+        "size": 48947
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Camepera-Abrigo-F-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034647865.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034647865.jpg",
+        "size": 62657
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "nombre": "Campera kid",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "ninos",
+    "ropa": "on",
+    "precio": "12000",
+    "imagen": "img-1675034668975.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Campera-Abrigo-N-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034668976.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034668976.jpg",
+        "size": 36825
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Campera-Abrigo-N-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034668977.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034668977.jpg",
+        "size": 45739
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "nombre": "Chaleco kid",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "ninos",
+    "precio": "8000",
+    "imagen": "img-1675034688529.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Chaleco-N-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034688531.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034688531.jpg",
+        "size": 70474
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Chaleco-N-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034688531.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034688531.jpg",
+        "size": 92683
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "nombre": "Pantalon men",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "hombre",
+    "ropa": "on",
+    "precio": "11500",
+    "imagen": "img-1675034814106.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-1-lateral-H.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034814107.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034814107.jpg",
+        "size": 37680
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-1-reverso-H.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034814107.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034814107.jpg",
+        "size": 41048
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "nombre": "Pantalon Wom",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "mujer",
+    "ropa": "on",
+    "precio": "11500",
+    "imagen": "img-1675034843837.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-2-F-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034843837.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034843837.jpg",
+        "size": 40977
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-2-F-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034843838.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034843838.jpg",
+        "size": 42003
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "nombre": "Pantalon Kid",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "ninos",
+    "ropa": "on",
+    "precio": "9000",
+    "imagen": "img-1675034865018.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-3-N-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034865019.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034865019.jpg",
+        "size": 27448
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Pantalon-3-N-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034865019.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034865019.jpg",
+        "size": 26674
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "nombre": "Remera Men",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "hombre",
+    "ropa": "on",
+    "precio": "4000",
+    "imagen": "img-1675034923279.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Remera-1-H-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034923280.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034923280.jpg",
+        "size": 36558
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Remera-1-H-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034923280.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034923280.jpg",
+        "size": 54925
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "nombre": "Remera wom",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "mujer",
+    "ropa": "on",
+    "precio": "4000",
+    "imagen": "img-1675034946115.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Remera-1-F-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034946115.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034946115.jpg",
+        "size": 27508
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Remera-1-F-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034946116.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034946116.jpg",
+        "size": 37695
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "nombre": "Remera Kid",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "ninos",
+    "ropa": "on",
+    "precio": "3500",
+    "imagen": "img-1675034973191.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Remera-3-N-reverso.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675034973192.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675034973192.jpg",
+        "size": 97287
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Lentes Black",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "",
+    "precio": "7500",
+    "imagen": "img-1675035038877.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Lentes-1-Acc-estuche.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675035038877.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675035038877.jpg",
+        "size": 88739
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Lentes Color",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "",
+    "precio": "7500",
+    "imagen": "img-1675035076015.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Lentes-2-Acc-estuche.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675035076016.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675035076016.jpg",
+        "size": 60295
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Gorra grey",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "",
+    "precio": "3500",
+    "imagen": "img-1675035118744.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Gorra-acc-frontal.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675035118746.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675035118746.jpg",
+        "size": 76258
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Zapatillas Brow",
+    "descripcion": "lorem ipsum aksdjask das dhas djasd asd agsd gas das dhas djasd gas dgaksd asg dgasd kagsd agks daskd askgd askgd agsdas dasld asd asdgas dglas dasd alsd ahñ",
+    "category": "",
+    "precio": "14000",
+    "imagen": "img-1675035194484.jpg",
+    "imagenes": [
+      {
+        "fieldname": "files_img",
+        "originalname": "Zapas-acc-dif.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675035194485.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675035194485.jpg",
+        "size": 80843
+      },
+      {
+        "fieldname": "files_img",
+        "originalname": "Zapas-acc-lateral.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products",
+        "filename": "img-1675035194487.jpg",
+        "path": "C:\\Users\\admin}\\Desktop\\Poyecto-DH\\public\\products\\img-1675035194487.jpg",
+        "size": 68792
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "NUEVO PRODUCTTSSS",
+    "descripcion": "asd asd a",
+    "category": "",
+    "tipo": "on",
+    "precio": "32332",
+    "imagen": "img-1677766950331.png",
+    "imagenes": [
+      {
+        "filename": "img-1677766950339.png"
+      },
+      {
+        "filename": "img-1677766950377.png"
+      },
+      {
+        "filename": "img-1677766950418.png"
+      }
+    ]
+  }
+]

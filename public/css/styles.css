@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap'); 
+
+
+
+:root{
+
+/*  PALETA DE COLORES: OPCION RED  */
+    --op1-color-primary-rojo: #f93943; 
+    --op1-color-secondary-rojo: #d1495b ;
+    --op1-color-bg-negro: #1a1423;
+    --op1-color-gris-oscuro: #65655e;
+    --op1-color-gris-claro: #e1e6e1; 
+
+/* PALETA DE COLORES: OPCION GREEN */
+    --op2-color-primary-green: #4daa57; 
+    --op2-color-secondary-ligthblue: #1e96fc; 
+    --op2-color-bg-blue-oscuro: #0b0033; 
+    --op2-color-gris-oscuro: #616163; 
+    --op2-color-gris-claro: #e1e6e1; 
+    
+
+/* TIPOGRAFIA PROPUESTA */
+    --op1-font-type: 'Roboto', sans-serif;
+    /* @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap'); */ 
+    --op2-font-type: 'Lato', sans-serif;
+    /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap')*/   
+}
+
+
+/* clases a reutilizar */
+
+.flex-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.cajaG{
+    background-color: var(--op1-color-primary-rojo);
+    color: var(--op1-color-gris-claro);
+}
+
+.caja{
+    background-color: var(--op1-color-secondary-rojo);
+    color: var(--op1-color-bg-negro);
+}
+
+body{
+    font-family: var(--op2-font-type);
+}
+
+.header-header{
+    background-color: var(--op2-color-primary-green);
+    color: var(--op2-color-gris-claro);
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 23;
+}
+
+main{
+    margin-top: 9vh;
+}
+
+.contenedor-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-user p{
+    padding: 10px;
+}
+
+.header_image_user{
+    width: 40px;
+    height: 40px;
+}
+
+.header_is_register{
+    text-align: center;
+}

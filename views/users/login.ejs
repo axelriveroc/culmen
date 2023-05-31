@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-  include('../partials/head.ejs', { css_files: ["login"] })%>
+
+<!--     <link href="/css/login.css" rel ="stylesheet">
+ --></head>
+
+<body>
+
+    <%- include('../partials/header.ejs') %>
+
+    <main>
+        <section class="contenedor_login">
+ 
+            <div class="login_form_container">
+
+                <p class="titulo-login">
+                    Iniciar sesión
+                </p>
+
+                <p class="subtitulo-login">
+                    Iniciá sesión en tu cuenta para comprar, ver el estado de tus pedidos y más.
+                </p>
+
+                <form class="loginform" action="/user/login" method="post">
+
+                    <input type="email" name="emailLogin" placeholder="Email" class="input
+                    <%= locals.errors && errors.emailLogin ? 'isInvalid' : null %>" value="<%= locals.old ? old.emailLogin : null %>">
+                    <% if( locals.errors && errors.emailLogin){ %>
+                        <small class="errors"> *<%= errors.emailLogin.msg %> </small> 
+                     <% } %>
+                            
+                    <input type="password" placeholder="Contraseña" name="passwordLogin" class="input
+                    <%= locals.errors && errors.passwordLogin ? 'isInvalid' : null %>" value="<%= locals.old ? old.passwordLogin : null %>">
+                    <% if( locals.errors && errors.passwordLogin){ %>
+                        <small class="errors"> *<%= errors.passwordLogin.msg %> </small> 
+                     <% } %>
+
+                    <div class="promo_checkbox">
+                        <input type="checkbox" name="recordarme" id="recordarme" class="input_radio">
+                        <label for="recordarme" class="promo_radio">
+                           Recordar mi usuario
+                        </label> 
+                    </div>
+                            
+                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                </form>
+
+                <div class="pie-form">
+                    <a href="#">¿Has olvidado tu contraseña?</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contenedor_register">
+            <div class="register_form_container">
+
+                <p class="titulo-register">
+                    Creá tu cuenta
+                </p>
+
+                <p class="subtitulo-register">
+                    Registrándote no te perderás de descuentos exclusivos, ofertas y anuncios.
+                </p>
+
+                <form action="/user" class="registerform" method="post" enctype="multipart/form-data">
+
+                    <input type="text" id="name" name="name"  placeholder="Ingresa tu nombre" 
+                    class= " input <%= locals.errors && errors.name ? 'isInvalid' : null %>" value="<%= locals.old ? old.name : null %>">
+                    <% if( locals.errors && errors.name){ %>
+                       <small class="errors"> *<%= errors.name.msg %> </small> 
+                    <% } %>
+
+
+                    <input type="text" id="lastname" name="lastName" placeholder="Ingresa tu apellido" 
+                    class= "input <%= locals.errors && errors.lastName? 'isInvalid' : null %>"  value="<%= locals.old ? old.lastName : null %>">
+                    <% if( locals.errors && errors.lastName){ %>
+                        <small class="errors"> *<%= errors.lastName.msg %> </small> 
+                     <% } %>
+
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu email" class= "input
+                    <%= locals.errors && errors.email ? 'isInvalid' : null %>" value="<%= locals.old ? old.email : null %>">
+                    <% if( locals.errors && errors.email){ %>
+                        <small class="errors"> *<%= errors.email.msg %> </small> 
+                     <% } %>
+
+                    <input type="password" id="pass" name="password" placeholder="Ingresa tu contraseña" class= "input
+                    <%= locals.errors && errors.password ? 'isInvalid' : null %>" value="<%= locals.old ? old.password : null %>">
+                    <% if( locals.errors && errors.password) { %>
+                        <small class="errors"> *<%= errors.password.msg %> </small> 
+                     <% } %>
+
+                    <input type="password" id="passConfirm" name="passConfirm" placeholder="Confirma tu contraseña" class= "input
+                    <%= locals.errors && errors.passConfirm ? 'isInvalid' : null %>" value="<%= locals.old ? old.passConfirm: null %>">
+                    <% if( locals.errors && errors.passConfirm) { %>
+                        <small class="errors"> *<%= errors.passConfirm.msg %> </small> 
+                     <% } %>
+
+                    <p> Selecciona una imagen de perfil:</p>
+                    <input type="file" id="" name="userImage" class= "input input_image <%= locals.errors && errors.userImage ? 'isInvalid' : null %>" > 
+                    <% if( locals.errors && errors.userImage) { %>
+                        <small class="errors" > *<%= errors.userImage.msg %> </small> 
+                     <% } %>
+<!-- 
+                    <p>Fecha de nacimiento: </p>
+                    <input type="date" id="fechaNac" name="fechaNac" class="input"> -->
+
+                        
+                    <div class="promo_checkbox">
+                        <input type="checkbox" name="promo" id="promo" class="input_radio">
+                        <label for="promo" class="promo_radio">
+                            Acepta recibir noticias y promociones
+                        </label> 
+                    </div>
+
+                    <button type="submit"> Crear cuenta </button>
+                </form>
+                    
+
+            </div>
+        </section>
+    </main>
+
+    <%-  include('../partials/footer.ejs')   %>
+
+
+</body>
+</html>

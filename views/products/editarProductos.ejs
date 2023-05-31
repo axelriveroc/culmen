@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-  include('../partials/head.ejs', { css_files: ["adminEdicionProdu"] })%>
+
+
+<body>
+   
+     <%- include('../partials/header.ejs') %> 
+
+    <main>
+
+        <h2>Editar Producto: <%= elegido.nombre %></h2>
+
+        <form action="/products/<%= elegido.id %>?_method=PUT" method="post" enctype="multipart/form-data" >
+
+            <div class="contenedor">
+                
+                
+                <div class="contenedor-nombreProdu">
+                    <label>Nombre del Producto: <%= elegido.nombre %>  </label>
+                    <input type="text" name="nombre" id="" placeholder="" class="nombreProducto inputstyle" value="<%= elegido.nombre %>"> 
+                </div>
+               
+                <div class="contenedor-descripcion">
+                    <textarea name="descripcion" id="" cols="30" rows="10" placeholder="Descripcion del producto" class="descripcion inputstyle"><%= elegido.descripcion %></textarea>
+                </div>
+                
+                <div class="contenedor-img">
+                    <label>Imagen Principal del Producto:</label>
+                    <input type="file" name="file_img" id="" placeholder="Sube la imagen" class="img">
+                </div>
+
+                <div class="contenedor-img">
+                    <label>Imagenes Secundarias del Producto:</label>
+                    <input type="file" name="files_img" id="" placeholder="Sube las imagenes" class="img" multiple > 
+                </div>
+
+                <div class="contenedor-categorias">
+                    <label class=" sub-contenedor">Categorias:</label>
+                    <select name="category" id="" class="categorias"> Categorias
+                        <option value= "hombre">HOMBRE</option>
+                        <option value="mujer" >MUJER</option>
+                        <option value="ninos">NIÑOS</option>
+                        <option value="accesorios">ACCESORIOS</option>
+                    </select>
+                </div>
+
+                <div class="contenedor-prendas">
+                    <label class="categoria-prenda">Tipos de prendas:</label>
+                    <input type="radio" name="ropa" id="" placeholder="" class="prendas"> Camisa
+                    <input type="radio" name="ropa" id="" placeholder="" class="prendas"> Camperas
+                    <input type="radio" name="ropa" id="" placeholder="" class="prendas"> Pantalones
+                    <input type="radio" name="ropa" id="" placeholder="" class="prendas"> Remeras
+                </div>
+
+                <div class="contenedor-talles">
+                    <label class="categoria-talles">Talles:</label>
+                    <input type="radio" name="talle" id="" placeholder="" class="talles"> S
+                    <input type="radio" name="talle" id="" placeholder="" class="talles"> M
+                    <input type="radio" name="talle" id="" placeholder="" class="talles"> L
+                    <input type="radio" name="talle" id="" placeholder="" class="talles"> XL
+                </div>
+
+                <div class="contenedor-precio">
+                    <label>Precio:</label>
+                    <input type="text" name="precio" id="" placeholder="$" class="inputstyle" value="<%= elegido.precio %>"> 
+                </div>
+
+                <div  class="contenedor-btn" >
+                    <button class="btn-crear" type="submit">GUARDAR CAMBIOS</button>
+<!--                     <button class="btn-cancelar" type="submit">CANCELAR</button>
+ -->            </div>
+        </div>
+        </form>
+    </main>
+
+
+      <%-  include('../partials/footer.ejs')   %>  
+
+</body>
+</html>

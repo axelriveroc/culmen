@@ -1,0 +1,56 @@
+<header class="flex-col">
+    <section class="header-header flex-row">
+        <div class="contenedor-hamburgesa">
+            <a href="#" class="menu-hamburgesa-boton">
+                <i class="fas fa-bars hamburg"></i></a>
+        </div>
+
+        <div class="contenedor-logo">
+            <img src="/image/logo-culmen.png" alt="Logo Culmen" class="logo">
+        </div>
+
+        <nav class="nav-bar flex-row">
+            <div class="contenedor-buscador">
+                <form action="" method="">
+                    <input type="text" name="buscador_home" id="buscador_home" class="buscador_home" placeholder="Busque su producto...">
+                </form>
+                <a href="#" class="buscador">
+                    <i class="fas fa-search icon_header"></i>
+                </a>
+                
+            </div>
+            
+            <div class="contenedor-carrito">
+                <i class="fas fa-shopping-cart icon_header" alt="Carrito de Compra"></i>
+            </div>   
+            
+            <% if( locals.isLogged ) { %>
+                <div class="contenedor-user">
+                    <img src="/users/<%= userLogged.imagen %>" alt="" class="header_image_user">
+                    <p> Hi <%= userLogged.name %> </p>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/user/profile">My profile</a>
+                        <li><hr class="dropdown-divider"></li>
+                        <a class="dropdown-item" href="/user/logout">Logout</a>
+                    </ul>
+                </div>
+            <% } else {  %>
+                <div class="contenedor-user">
+                   <!--  <i class="fas fa-user icon_header" alt="Iniciar Sesion"> </i> -->
+                    <p class="header_is_register"> Iniciar Sesión o Registrarse </p>
+                </div>
+             <% } %>
+        </nav>
+    </section>
+
+    <nav class="header_container_items">
+        <ul>
+                <li>Hombre</li>
+                <li>Mujer</li>
+                <li>Niño</li>
+                <li>Accesorios</li>
+        </ul>
+        </nav>
+
+
+</header>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-  include('../partials/head.ejs', { css_files: ["profile"] })%>
+
+<!--     <link href="/css/login.css" rel ="stylesheet">
+ --></head>
+
+<body>
+
+    <%- include('../partials/header.ejs') %>
+
+   <main>
+    <section class="section_profile_user">
+        <div class="profileUser">
+            <h1> Bienvenidx <%= user.name %> </h1>
+            <h3> Su mail es: <%= user.email %> </h3>
+            <img src="/users/<%= user.imagen %>" alt="" class="img_profile">
+            
+        </div>
+    </section>
+   </main>
+
+    <%-  include('../partials/footer.ejs')   %>
+
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-  include('../partials/head.ejs', { css_files: ["productDetail"] })%>
+    
+<!--     <link href="/css/productDetail.css" rel ="stylesheet">
+ -->
+</head>
+
+<body>
+
+    <%- include('../partials/header.ejs') %>
+
+<main class="main_detailProduct flex-col"> 
+
+    <div class="provisorio2">
+
+        <div class="box-product">
+          <div class="provisorio">
+            <section class="img_detailProduct">
+                <img src="/products/<%= elegido.imagen %>"  alt="">
+            </section>
+            <section class="detailProduct_other_images">
+                <% elegido.imagenes.forEach((i)=>{  %>
+                <div class="small_img">
+                    <img src="/products/<%= i.filename %>" alt="">
+                </div>
+            <% }) %>
+            </section>
+        </div>
+        <section class="container_price">
+            <div class="content_price">
+                <p class="product_name"><%= elegido.nombre %></p>
+                <p class="product_price">$<%= elegido.precio %></p>
+                <div class="reviews">
+                    <p class="product_rating">★ ★ ★ ★ ☆</p>
+                    <p>Num Reviews</p>
+                </div>
+                <p class="product_description"> <%= elegido.descripcion %> </p>
+                <p>Talle:</p>
+                    <div class="talles">
+                        <div class="xs">
+                            <input id="xs" type="radio" name="size" value="xs" checked>
+                            <label for="xs">XS</label>
+                        </div>
+                        <div class="s">
+                            <input id="s" type="radio" name="size" value="s" checked>
+                            <label for="xs">S</label>
+                        </div>
+                        <div class="m">
+                            <input id="m" type="radio" name="size" value="m" checked>
+                            <label for="xs">M</label>
+                        </div>
+                        <div class="l">
+                            <input id="l" type="radio" name="size" value="l" checked>
+                            <label for="xs">L</label>
+                        </div>
+                        <div class="xl">
+                            <input id="xl" type="radio" name="size" value="xl" checked>
+                            <label for="xs">XL</label>
+                        </div>
+                    </div>
+                    <p>Cantidad:</p>
+                    <div class="quantity">
+                        <button class="add_button">-</button>
+                        <span class="num_quantity"> 1 </span>
+                        <button class="subtract_button">+</button>
+                    </div>
+                    <button class="buy_button">Añadir al carrito</button>
+                </div>
+            </section>  
+        </div>
+        
+    <div>
+
+<div>
+    <form action="/products/<%= elegido.id %>?_method=DELETE" method="post" class="form_buttons">
+        <a href="/products/<%= elegido.id %>/editar" class="edit_button">Editar</a>
+        <button type="submit" class="delete_button"> Eliminar </button>
+    </form>
+</div>
+
+
+<div class="review_section">
+    <p class="title_reviews">Reviews</p>
+    <div class="post_review_container">
+        <p class="num_reviews">Escribí una reseña</p>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <input type="text" placeholder="Titulo">
+            <textarea name="reseña" id="" cols="30" rows="10" placeholder="Reseña" style="resize: none"></textarea>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <div class="flex_rating">
+                <p>Puntaje:</p>
+                <div class="rating">
+                    <input id="radio1" type="radio" name="stars" value="5">
+                    <label for="radio1">★</label>
+                    <input id="radio2" type="radio" name="stars" value="4">
+                    <label for="radio2">★</label>
+                    <input id="radio3" type="radio" name="stars" value="3">
+                    <label for="radio3">★</label>
+                    <input id="radio4" type="radio" name="stars" value="2">
+                    <label for="radio4">★</label>
+                    <input id="radio5" type="radio" name="stars" value="1">
+                    <label for="radio5">★</label>
+                </div>
+            </div>
+        </form>
+        <button class="write_review">Publicar</button>
+    </div>
+
+    <div class="box-filter">
+        <p class="post_filter">Filtrar por:</p>
+        <div class="filter_reviews">
+            <div class="new_reviews">
+                <input id="new" type="radio" name="new" value="new" checked>
+                <label for="xs">Recientes</label>
+            </div>
+            <div class="highest_reviews">
+                <input id="highest" type="radio" name="highest" value="highest" checked>
+                <label for="xs">Mejores</label>
+            </div>
+            <div class="lower_reviews">
+                <input id="lower" type="radio" name="lower" value="lower" checked>
+                <label for="xs">Peores</label>
+            </div>
+        </div>
+        <p class="num_reviews">Num Reviews</p>
+        <div class="box-comment-review">
+            <div class="profile-user">
+                <div class="user">
+                    <img src="/image/profile-image-user.png" alt="" class="profile-image">
+                    <div>
+                        <p class="user-name">Nombre</p>
+                        <p class="user-rating">★ ★ ★ ★ ☆</p>
+                    </div>        
+                </div>
+                <div class="comment-review">
+                    <p class="title">Título</p>
+                    <p>Reseña...</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="box-button-reviews">
+            <button class="button-reviews">Más</button>    
+        </div>
+
+    </div>    
+
+</div>
+
+<div class="product-card">
+    <p>También te puede interesar</p>
+    
+    <div class="product-group">
+    <div>
+        <article>
+            <a href="" class="image-link">
+                <img src="/image/producto-remera.jpg" alt="" class="image-product">
+            </a>
+            <a href="" class="product-link">
+                <div class="name-price">
+                    <p class="producto-nombre"><strong>Producto</strong></p>
+                    <p><strong class="producto-precio">$0.00</strong></p>
+                </div>
+            </a>
+        </article>
+    </div>
+    <div>
+        <article>
+            <a href="" class="image-link">
+                <img src="/image/producto-remera.jpg" alt="" class="image-product">
+            </a>
+            <a href="" class="product-link">
+                <div class="name-price">
+                    <p class="producto-nombre"><strong>Producto</strong></p>
+                    <p><strong class="producto-precio">$0.00</strong></p>
+                </div>
+            </a>
+        </article>
+    </div>
+    <div>
+        <article>
+            <a href="" class="image-link">
+                <img src="/image/producto-remera.jpg" alt="" class="image-product">
+            </a>
+            <a href="" class="product-link">
+                <div class="name-price">
+                    <p class="producto-nombre"><strong>Producto</strong></p>
+                    <p><strong class="producto-precio">$0.00</strong></p>
+                </div>
+            </a>
+        </article>
+    </div>
+    <div>
+        <article>
+            <a href="" class="image-link">
+                <img src="/image/producto-remera.jpg" alt="" class="image-product">
+            </a>
+            <a href="" class="product-link">
+                <div class="name-price">
+                    <p class="producto-nombre"><strong>Producto</strong></p>
+                    <p><strong class="producto-precio">$0.00</strong></p>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    </div>
+    
+</div>
+</main>
+
+ <%-  include('../partials/footer.ejs')   %>
+
+</body>
+</html>

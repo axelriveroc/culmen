@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-  include('../partials/head.ejs', { css_files: ["home"] })%>
+
+
+<!-- <link rel="stylesheet" href="/css/home.css">
+ -->
+
+<!-- </head>
+ -->
+<body>
+    <%- include('../partials/header.ejs') %>
+
+    <main>
+        <section class="section-productos flex-col">
+            <h3>Basado en tu ultima visita</h3>
+            <div class="container-productos flex-col "> 
+
+                <%  products.forEach((p)=>{ %>
+
+                <article class="producto card">
+                    <a href="/products/<%= p.id %>" class="enlace">
+                        <div class="card2">
+                            <img src="/products/<%= p.imagen %>" alt="" class="img-product">
+                            <div class="main-art-prducto">
+                                <p><strong class="producto-precio">$<%= p.precio %></strong></p>
+                                <p class="producto-nombre"><strong><%= p.nombre %></strong></p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <%  }) %>
+
+
+             </div> 
+        </section>
+    </main>
+    <%-  include('../partials/footer.ejs')   %>
+
+
+</body>
+</html>
